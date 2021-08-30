@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Library App</title>
+</head>
+<body>
+    <header class="header">
+        <img src="img/stacked-book-clipart-02-300x300.png">
+        <h1>Build A Book List</h1>
+    </header>
+    <button class="open-form">Add A Book to List</button>
+    <div class="form-container modal" id="modal">
+        <form class="form modal-content">
+            <span class="close">&times;</span>
+            <label for="title">Book Title: </label>
+            <input type="text" name="title" id="title">
+            <label for="author">Author: </label>
+            <input type="text" name="author" id="author">
+            <label for="pages">Number of Pages: </label>
+            <input type="text" name="pages" id="noOfPages">
+            <label for="haveRead">Have read book</label>
+            <input type="checkbox" name="haveRead" id="haveRead">
+            <button type="submitt" class="add-book btn">Submit Entry</button>
+        </form>
+    </div>    
+    <div class="book-list-container">
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>

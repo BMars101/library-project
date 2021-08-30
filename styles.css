@@ -1,0 +1,135 @@
+body{
+    background-color: #9897a9;
+    
+    font-family:Georgia, 'Times New Roman', Times, serif;
+
+}
+h1{
+    margin-left:20px;
+}
+h3{
+    padding-bottom:10px;
+    border-bottom-width: 60%;
+    border-bottom: 1px solid #f1ebe9;
+}
+img {
+    width: 150px;
+    height: 150px;
+}
+input{
+    padding: 10px;
+    border-radius: 15px;
+    background-color:lightgray;
+}
+input, label{
+    margin: 8px;
+}
+.add-book {
+    background-color:#4d4c5c;
+    color: #f1ebe9;
+    border-radius: 15px;
+    font-weight: bold;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    
+}
+.book-item{
+    background: #3F3f4e;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+    color: #f1ebe9;
+    border-radius: 15px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+}
+
+.book-list-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 20px 40px;
+    
+}
+
+.btn {
+    padding: 10px;
+    width: fit-content;
+}
+
+.close-btn {
+    height: fit-content;
+    margin-top: 138px;
+    margin-right: 40px;
+}
+.header {
+    display: flex;
+    line-height: 1.5em;
+    padding-right: 15px;
+    background-color: #f1ebe9;
+    color: #373737;
+    border-bottom: 3px solid #696880;
+    font-size: 1.8em;
+    font-weight: bold;
+    text-align: center;
+}
+.headline {
+    margin: auto;
+}
+.modal-content {
+    display: inline-grid;
+    font-weight: bold;
+    font-size: 1.5em;
+    background-color: #f1ebe9;
+    color: #373737;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 60%;
+  }
+
+.modal {
+    display: none; /* Hidden by default */
+    flex-direction: column;
+    position: fixed;
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto;
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4);
+}
+
+.open-form {
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+    border-radius: 15px;
+    border: 2px solid #696880;
+    padding: 15px;
+    background-color: #f1ebe9;
+    color:#3E3D53;
+    margin: 5% 40%;
+    width: max-content;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 1.3em;
+}
+.open-form:hover{
+    background-color: #c5c6d0;
+}
+
+.have-read-btn, .remove-btn {
+    padding: 8px;
+    margin: 8px;
+    border: none;
+    background-color:#696880;
+    color: #f1ebe9;
+    padding: 15px;
+    border: 2px solid #c5c6d0;
+    border-radius: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+.have-read-btn:hover, .remove-btn:hover{
+    background-color: #9c9da7;
+}
